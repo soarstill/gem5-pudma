@@ -334,3 +334,10 @@ website:
   maintainers:
     - Bobby Bruce <bbruce@ucdavis.edu>
     - Hoa Nguyen <hoanguyen@ucdavis.edu>
+
+pudma:
+  desc: >-
+    The gem5  Pu+DMA Engine model
+  status: maintained
+  maintainers:
+    - H.S.Song <soarstill@gmail.com>
