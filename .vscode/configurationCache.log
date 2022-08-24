@@ -1,0 +1,1 @@
+{"buildTargets":["ARM","MIPS","POWER","X86","all","build/X86/gem5.opt","pudma3","pudma4","setup","setup20","tests/pudma/bin/x86/linux/putest64-static"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

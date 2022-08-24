@@ -1,0 +1,319 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug 24 11:26:18 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /Home2/hssong/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /Home2/hssong/Proj/Next_Generation_Memory_Platform/gem5-pudma
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"d4733d4bd5138ffb2c9d12a76b2e9102.ko","_translationsConfigFile":"/Home2/hssong/.vscode-server/data/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/tcf.json","_cacheRoot":"/Home2/hssong/.vscode-server/data/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko","_resolvedLanguagePackCoreLocation":"/Home2/hssong/.vscode-server/data/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"/Home2/hssong/.vscode-server/data/clp/d4733d4bd5138ffb2c9d12a76b2e9102.ko/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /Home2/hssong/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/70001/bus
+# environment
+VSCODE_CWD = /Home2/hssong
+# environment
+SSH_CONNECTION = 61.74.232.182 58065 61.74.232.196 22
+# environment
+PATH = /Home2/hssong/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/remote-cli:/Tools/cuda-10.0/bin:/Home2/hssong/bin:/Home2/hssong/.local/bin:/bin:/usr/local/bin:/usr/bin:/usr/sbin
+# makefile (from 'Makefile', line 22)
+SCONS_CMD = python3 /Tools/scons/scripts/scons.py
+# environment
+XDG_RUNTIME_DIR = /run/user/70001
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# automatic
+%F = $(notdir $%)
+# makefile (from 'Makefile', line 23)
+N_CPU = 4
+# environment
+PWD = /Home2/hssong/Proj/Next_Generation_Memory_Platform/gem5-pudma
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/70001/vscode-ipc-2ff286de-e7c7-4899-889b-6c1050d7406d.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Home2/hssong
+# environment
+LD_LIBRARY_PATH = /Tools/cuda-10.0/lib64:/Tools/cuda-10.0/lib64/stubs:/usr/local/lib
+# environment
+CUDA_HOME = /Tools/cuda-10.0
+# environment
+LOGNAME = hssong
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+XDG_SESSION_ID = 669
+# environment
+USER = hssong
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from 'Makefile', line 70)
+M5OUT_PUTEST = m5out
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 61.74.232.182 58065 22
+# environment
+MAIL = /var/mail/hssong
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 24)
+M5_PATH = /Data/Gem5/arm
+# environment
+BROWSER = /Home2/hssong/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=66/1024=6%, Rehash=0, Collisions=9/99=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 61, inode 85766332): 30 files, no impossibilities.
+
+# 30 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+setup:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	sudo apt install build-essential git m4 scons zlib1g zlib1g-dev \
+		libprotobuf-dev protobuf-compiler protobuf-compiler-grpc libprotoc-dev libgoogle-perftools-dev \
+		python3-dev python3-six python libboost-all-dev pkg-config \
+		libhdf5-serial-dev libgrpc++-dev
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/12=8%
+#  recipe to execute (from 'Makefile', line 32):
+	@echo "setup: Setup Build Environment"
+	@echo "Build: X86 ARM MIPS POWER"
+	@echo "	Requires python3 >= 3.5 (recommend 3.7)"
+	@echo "	Do export M5_PATH=$(M5_PATH) first for ARM full system"
+	@echo "pudma4: Processing Unit with DMA version 4"
+	@echo "pudma3: Processing Unit with DMA version 3"
+
+pudma4: build/X86/gem5.opt tests/pudma/bin/x86/linux/putest64-static
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	./build/X86/gem5.opt \
+	   	--outdir=$(M5OUT_PUTEST)_pumem4 \
+		--debug-flags=PuEngine4 \
+		configs/pudma/pumem4.py
+	@echo "See $(M5OUT_PUTEST)/pumem4 directory\n\n"
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+MIPS:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 64):
+	$(SCONS_CMD) build/MIPS/gem5.opt -j8
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-24 10:55:09.755763118
+#  File has been updated.
+#  Successfully updated.
+
+tests/pudma/bin/x86/linux/putest64-static:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 93):
+	@echo "make in tests/pudma/src"
+	make -C tests/pudma/src
+
+ARM:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 61):
+	$(SCONS_CMD) build/ARM/gem5.opt -j8
+
+pudma3: build/X86/gem5.opt tests/pudma/bin/x86/linux/putest64-static
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 82):
+	./build/X86/gem5.opt \
+	   	--outdir=$(M5OUT_PUTEST)_pumem3 \
+		--debug-flags=PuEngine2,PuEngine3 \
+		configs/pudma/pumem3.py
+	@echo "See $(M5OUT_PUTEST)/pumem3 directory\n\n"
+
+setup20:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	sudo apt install build-essential git m4 scons zlib1g zlib1g-dev \
+		libprotobuf-dev protobuf-compiler protobuf-compiler-grpc libprotoc-dev libgoogle-perftools-dev \
+		python3-dev python3-six python-is-python3 libboost-all-dev pkg-config \
+		libhdf5-serial-dev libgrpc++-dev
+
+X86:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 58):
+	$(SCONS_CMD) build/X86/gem5.opt -j8
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+POWER:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 67):
+	$(SCONS_CMD) build/POWER/gem5.opt -j8
+
+build/X86/gem5.opt:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 89):
+	@echo "Build build/X86/gem5.opt"
+	$(SCONS_CMD) build/X86/gem5.opt -j8
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/32=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 45 / storage = 454 B / avg = 10 B
+# current buf: size = 8162 B / used = 454 B / count = 45 / avg = 10 B
+
+# strcache performance: lookups = 66 / hit rate = 31%
+# hash-table stats:
+# Load=45/8192=1%, Rehash=0, Collisions=1/66=2%
+# Finished Make data base on Wed Aug 24 11:26:18 2022
+
+ 

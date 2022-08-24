@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/Home2/hssong/Proj/Next_Generation_Memory_Platform/gem5-pudma'
+echo "setup: Setup Build Environment"
+echo "Build: X86 ARM MIPS POWER"
+echo "	Requires python3 >= 3.5 (recommend 3.7)"
+echo "	Do export M5_PATH=/Data/Gem5/arm first for ARM full system"
+echo "pudma4: Processing Unit with DMA version 4"
+echo "pudma3: Processing Unit with DMA version 3"
+make: Leaving directory '/Home2/hssong/Proj/Next_Generation_Memory_Platform/gem5-pudma'
+ 
